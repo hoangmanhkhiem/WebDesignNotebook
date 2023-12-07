@@ -1,0 +1,284 @@
+.background{
+    background: #000; /* Màu đen */
+    background: #000000; /* Màu đen */
+    background: rgb(0, 0, 0); /* Màu đen */
+    background: rgba(0, 0, 0, 1); /* Màu đen */
+    background: hsl(0, 0%, 0%); /* Màu đen */
+    background: hsla(0, 0%, 0%, 1); /* Màu đen */
+    background: transparent; /* Màu trong suốt */
+    background: inherit; /* Kế thừa giá trị của thẻ cha */
+    background: initial; /* Giá trị mặc định */
+    background: unset; /* Không có giá trị */
+}
+
+.background-image{
+    background-image: url("https://www.w3schools.com/cssref/img_tree.gif"); /* Thêm hình nền */
+    background-image: none; /* Không có giá trị */
+    background-image: inherit; /* Kế thừa giá trị của thẻ cha */
+    background-image: initial; /* Giá trị mặc định */
+    background-image: unset; /* Không có giá trị */
+}
+
+.text-align{
+    text-align: left; /* Căn chữ lề trái */
+    text-align: center; /* Căn chữ lề giữa */
+    text-align: right; /* Căn chữ lề phải */
+    text-align: justify; /* Căn chữ đều 2 bên */
+    text-align: inherit; /* Kế thừa giá trị của thẻ cha */
+    text-align: initial; /* Giá trị mặc định */
+    text-align: unset; /* Không có giá trị */
+}
+.text-decoration{
+    text-decoration: none; /* Không gạch chân */
+    text-decoration: underline; /* Gạch chân */
+    text-decoration: overline; /* Gạch trên */
+    text-decoration: line-through; /* Gạch ngang */
+    text-decoration: inherit; /* Kế thừa giá trị của thẻ cha */
+    text-decoration: initial; /* Giá trị mặc định */
+    text-decoration: unset; /* Không có giá trị */
+}
+.text-indent{
+    text-indent: 50px; /* Thụt lề 50px */
+    text-indent: 10%; /* Thụt lề 10% */
+    text-indent: inherit; /* Kế thừa giá trị của thẻ cha */
+    text-indent: initial; /* Giá trị mặc định */
+    text-indent: unset; /* Không có giá trị */
+}
+.padding{
+    padding: 10px; /* Tạo khoảng cách 10px */
+    padding: 10px 20px; /* Tạo khoảng cách 10px ở trên và dưới, 20px ở trái và phải */
+    padding: 10px 20px 30px; /* Tạo khoảng cách 10px ở trên, 20px ở trái và phải, 30px ở dưới */
+    padding: 10px 20px 30px 40px; /* Tạo khoảng cách 10px ở trên, 20px ở phải, 30px ở dưới, 40px ở trái */
+    padding: inherit; /* Kế thừa giá trị của thẻ cha */
+    padding: initial; /* Giá trị mặc định */
+    padding: unset; /* Không có giá trị */
+}
+.margin{
+    margin: 10px; /* Tạo khoảng cách 10px */
+    margin: 10px 20px; /* Tạo khoảng cách 10px ở trên và dưới, 20px ở trái và phải */
+    margin: 10px 20px 30px; /* Tạo khoảng cách 10px ở trên, 20px ở trái và phải, 30px ở dưới */
+    margin: 10px 20px 30px 40px; /* Tạo khoảng cách 10px ở trên, 20px ở phải, 30px ở dưới, 40px ở trái */
+    margin: inherit; /* Kế thừa giá trị của thẻ cha */
+    margin: initial; /* Giá trị mặc định */
+    margin: unset; /* Không có giá trị */
+}
+
+.display{
+    display: none; /* Ẩn phần tử */
+    display: block; /* Hiển thị phần tử dưới dạng khối */
+    display: inline; /* Hiển thị phần tử dưới dạng nội dòng */
+    display: inline-block; /* Hiển thị phần tử dưới dạng nội dòng khối */
+    display: flex; /* Hiển thị phần tử dưới dạng flexbox */
+    display: inline-flex; /* Hiển thị phần tử dưới dạng flexbox nội dòng */
+    display: grid; /* Hiển thị phần tử dưới dạng grid */
+    display: inline-grid; /* Hiển thị phần tử dưới dạng grid nội dòng */
+    display: inherit; /* Kế thừa giá trị của thẻ cha */
+    display: initial; /* Giá trị mặc định */
+    display: unset; /* Không có giá trị */
+}
+
+.float{
+    float: left; /* Đặt phần tử về bên trái */
+    float: right; /* Đặt phần tử về bên phải */
+    float: none; /* Không có giá trị */
+    float: inherit; /* Kế thừa giá trị của thẻ cha */
+    float: initial; /* Giá trị mặc định */
+    float: unset; /* Không có giá trị */
+}
+
+.clear{
+    clear: left; /* Xóa bỏ float bên trái */
+    clear: right; /* Xóa bỏ float bên phải */
+    clear: both; /* Xóa bỏ float bên trái và bên phải */
+    clear: none; /* Không có giá trị */
+    clear: inherit; /* Kế thừa giá trị của thẻ cha */
+    clear: initial; /* Giá trị mặc định */
+    clear: unset; /* Không có giá trị */
+}
+
+.overflow{
+    overflow: visible; /* Hiển thị phần tử vượt ra ngoài */
+    overflow: hidden; /* Ẩn phần tử vượt ra ngoài */
+    overflow: scroll; /* Hiển thị thanh cuộn */
+    overflow: auto; /* Hiển thị thanh cuộn khi cần thiết */
+    overflow: inherit; /* Kế thừa giá trị của thẻ cha */
+    overflow: initial; /* Giá trị mặc định */
+    overflow: unset; /* Không có giá trị */
+}
+
+.position{
+    position: static; /* Vị trí mặc định */
+    position: relative; /* Vị trí tương đối */
+    position: absolute; /* Vị trí tuyệt đối */
+    position: fixed; /* Vị trí cố định */
+    position: sticky; /* Vị trí dính */
+    position: inherit; /* Kế thừa giá trị của thẻ cha */
+    position: initial; /* Giá trị mặc định */
+    position: unset; /* Không có giá trị */
+}
+
+.box-sizing{
+    box-sizing: content-box; /* Kích thước của phần tử bao gồm: width + padding + border */
+    box-sizing: border-box; /* Kích thước của phần tử bao gồm: width */
+    box-sizing: inherit; /* Kế thừa giá trị của thẻ cha */
+    box-sizing: initial; /* Giá trị mặc định */
+    box-sizing: unset; /* Không có giá trị */
+}
+
+.visibility{
+    visibility: visible; /* Hiển thị phần tử */
+    visibility: hidden; /* Ẩn phần tử */
+    visibility: inherit; /* Kế thừa giá trị của thẻ cha */
+    visibility: initial; /* Giá trị mặc định */
+    visibility: unset; /* Không có giá trị */
+}
+
+.height{
+    height: auto; /* Chiều cao tự động */
+    height: 100px; /* Chiều cao 100px */
+    height: 50%; /* Chiều cao 50% */
+    height: inherit; /* Kế thừa giá trị của thẻ cha */
+    height: initial; /* Giá trị mặc định */
+    height: unset; /* Không có giá trị */
+}
+
+.width{
+    width: auto; /* Chiều rộng tự động */
+    width: 100px; /* Chiều rộng 100px */
+    width: 50%; /* Chiều rộng 50% */
+    width: inherit; /* Kế thừa giá trị của thẻ cha */
+    width: initial; /* Giá trị mặc định */
+    width: unset; /* Không có giá trị */
+}
+
+.transform{
+    transform: none; /* Không có giá trị */
+    transform: rotate(30deg); /* Xoay phần tử 30 độ */
+    transform: rotateX(30deg); /* Xoay phần tử 30 độ theo trục X */
+    transform: rotateY(30deg); /* Xoay phần tử 30 độ theo trục Y */
+    transform: rotateZ(30deg); /* Xoay phần tử 30 độ theo trục Z */
+    transform: rotate3d(1, 1, 1, 30deg); /* Xoay phần tử 30 độ theo trục X, Y, Z */
+    transform: scale(1.5); /* Phóng to phần tử 1.5 lần */
+    transform: scaleX(1.5); /* Phóng to phần tử 1.5 lần theo trục X */
+    transform: scaleY(1.5); /* Phóng to phần tử 1.5 lần theo trục Y */
+    transform: scaleZ(1.5); /* Phóng to phần tử 1.5 lần theo trục Z */
+    transform: scale3d(1.5, 1.5, 1.5); /* Phóng to phần tử 1.5 lần theo trục X, Y, Z */
+    transform: skew(30deg); /* Nghiêng phần tử 30 độ */
+    transform: skewX(30deg); /* Nghiêng phần tử 30 độ theo trục X */
+    transform: skewY(30deg); /* Nghiêng phần tử 30 độ theo trục Y */
+    transform: translate(100px, 100px); /* Di chuyển phần tử 100px theo trục X và 100px theo trục Y */
+    transform: translateX(100px); /* Di chuyển phần tử 100px theo trục X */
+    transform: translateY(100px); /* Di chuyển phần tử 100px theo trục Y */
+    transform: translateZ(100px); /* Di chuyển phần tử 100px theo trục Z */
+    transform: translate3d(100px, 100px, 100px); /* Di chuyển phần tử 100px theo trục X, Y, Z */
+    transform: matrix(1, 0, 0, 1, 100, 100); /* Di chuyển phần tử 100px theo trục X và 100px theo trục Y */
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 100, 100, 100, 0, 1); /* Di chuyển phần tử 100px theo trục X, Y, Z */
+    transform: inherit; /* Kế thừa giá trị của thẻ cha */
+    transform: initial; /* Giá trị mặc định */
+    transform: unset; /* Không có giá trị */
+}
+
+.border{
+    border: 1px solid #000; /* Đường viền 1px, màu đen */
+    border: 1px solid #000000; /* Đường viền 1px, màu đen */
+    border: 1px solid rgb(0, 0, 0); /* Đường viền 1px, màu đen */
+    border: 1px solid rgba(0, 0, 0, 1); /* Đường viền 1px, màu đen */
+    border: 1px solid hsl(0, 0%, 0%); /* Đường viền 1px, màu đen */
+    border: 1px solid hsla(0, 0%, 0%, 1); /* Đường viền 1px, màu đen */
+    border: 1px solid transparent; /* Đường viền 1px, màu trong suốt */
+    border: 1px solid inherit; /* Kế thừa giá trị của thẻ cha */
+    border: 1px solid initial; /* Giá trị mặc định */
+    border: 1px solid unset; /* Không có giá trị */
+}
+
+.border-radius{
+    border-radius: 5px; /* Bo tròn 4 góc 5px */
+    border-radius: 5px 10px; /* Bo tròn 2 góc trên 5px, 2 góc dưới 10px */
+    border-radius: 5px 10px 15px; /* Bo tròn 2 góc trên 5px, 2 góc dưới 15px */
+    border-radius: 5px 10px 15px 20px; /* Bo tròn 4 góc 5px, 10px, 15px, 20px */
+    border-radius: inherit; /* Kế thừa giá trị của thẻ cha */
+    border-radius: initial; /* Giá trị mặc định */
+    border-radius: unset; /* Không có giá trị */
+}
+
+.box-shadow{
+    box-shadow: 10px 10px 5px #888888; /* Tạo bóng cho phần tử */
+    box-shadow: none; /* Không có giá trị */
+    box-shadow: inherit; /* Kế thừa giá trị của thẻ cha */
+    box-shadow: initial; /* Giá trị mặc định */
+    box-shadow: unset; /* Không có giá trị */
+}
+
+.outline{
+    outline: 1px solid #000; /* Đường viền 1px, màu đen */
+    outline: 1px solid #000000; /* Đường viền 1px, màu đen */
+    outline: 1px solid rgb(0, 0, 0); /* Đường viền 1px, màu đen */
+    outline: 1px solid rgba(0, 0, 0, 1); /* Đường viền 1px, màu đen */
+    outline: 1px solid hsl(0, 0%, 0%); /* Đường viền 1px, màu đen */
+    outline: 1px solid hsla(0, 0%, 0%, 1); /* Đường viền 1px, màu đen */
+    outline: 1px solid transparent; /* Đường viền 1px, màu trong suốt */
+    outline: 1px solid inherit; /* Kế thừa giá trị của thẻ cha */
+    outline: 1px solid initial; /* Giá trị mặc định */
+    outline: 1px solid unset; /* Không có giá trị */
+}
+
+.link{
+    visited: #0000FF; /* Màu khi đã truy cập */
+    link: #FF0000; /* Màu khi chưa truy cập */
+    hover: #FF00FF; /* Màu khi rê chuột vào */
+    active: #0000FF; /* Màu khi đang click */
+}
+
+.list-style-type{
+    list-style-type: none; /* Không có dấu đầu dòng */
+    list-style-type: disc; /* Dấu đầu dòng hình tròn */
+    list-style-type: circle; /* Dấu đầu dòng hình tròn rỗng */
+    list-style-type: square; /* Dấu đầu dòng hình vuông */
+    list-style-type: decimal; /* Dấu đầu dòng số */
+    list-style-type: decimal-leading-zero; /* Dấu đầu dòng số có số 0 ở đầu */
+    list-style-type: lower-roman; /* Dấu đầu dòng số la mã thường */
+    list-style-type: upper-roman; /* Dấu đầu dòng số la mã hoa */
+    list-style-type: lower-alpha; /* Dấu đầu dòng chữ thường */
+    list-style-type: upper-alpha; /* Dấu đầu dòng chữ hoa */
+    list-style-type: inherit; /* Kế thừa giá trị của thẻ cha */
+    list-style-type: initial; /* Giá trị mặc định */
+    list-style-type: unset; /* Không có giá trị */
+}
+
+.border-collapse{
+    border-collapse: collapse; /* Gộp các đường viền thành 1 */
+    border-collapse: separate; /* Tách các đường viền */
+    border-collapse: inherit; /* Kế thừa giá trị của thẻ cha */
+    border-collapse: initial; /* Giá trị mặc định */
+    border-collapse: unset; /* Không có giá trị */
+}
+
+.position{
+    position: static; /* Vị trí mặc định */
+    position: relative; /* Vị trí tương đối */
+    position: absolute; /* Vị trí tuyệt đối */
+    position: fixed; /* Vị trí cố định */
+    position: sticky; /* Vị trí dính */
+    position: inherit; /* Kế thừa giá trị của thẻ cha */
+    position: initial; /* Giá trị mặc định */
+    position: unset; /* Không có giá trị */
+}
+
+.z-index{
+    z-index: auto; /* Giá trị mặc định */
+    z-index: 0; /* Giá trị 0 */
+    z-index: -1; /* Giá trị -1 */
+    z-index: inherit; /* Kế thừa giá trị của thẻ cha */
+    z-index: initial; /* Giá trị mặc định */
+    z-index: unset; /* Không có giá trị */
+}
+
+
+
+/* Cấu trúc dựa vào các tên class,id,tagname : 
+- Gọi dựa vào tên class : .class-name
+- Gọi dựa vào tên id : #id-name
+- Gọi dựa vào tên tagname : tagname
+- Gọi dựa vào tên class con của class cha : .class-cha .class-con
+- Gọi dựa vào tên class con của class cha : .class-cha > .class-con
+ */
